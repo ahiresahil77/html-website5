@@ -1,0 +1,522 @@
+*{
+  margin: 0;
+  font-family: bodoni;
+  border: border-box;
+}
+
+.navbar {
+  height: 60px;
+  background-color: #DBDAD6;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+
+.nav-logo {
+  height: 50px;
+  width: 120px;
+}
+
+.logo {
+  background-image: url("logo (2).jpg");
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid black;
+}
+
+/** box2**/
+
+.add-first{
+  font-size: 0.85rem;
+  margin-left: 28px;
+}
+
+.add-sec {
+  font-size: 1rem;
+  margin-left: 3px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 12px;
+}
+
+/** box3 **/
+
+.nav-search {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly ;
+  background-color: rgb(0, 0, 0);
+  width: 800px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.nav-search:hover{
+  border: 2px solid rgb(159, 155, 141);
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border: none;
+}
+
+.search-input {
+  width: 100%;
+ font-size: 1rem;
+ border: none;
+}
+
+.search-icon {
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #DBDAD6;
+}
+
+/** box 4 **/
+
+span {
+  color: black;
+  font-size: 0.85rem;
+}
+
+.nav-second {
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/** box 5**/
+.navcart i {
+  font-size: 30px;
+}
+
+.navcart{
+  font-size: 1rem;
+  color: black;
+  font-weight: 700;
+}
+
+.language i {
+  font-size: 30px;
+}
+
+.language{ font-size: 1rem;
+  color: black;
+  font-weight: 700;
+
+}
+
+/** Panel **/
+.panel {
+  height: 40px;
+  background-color: #c9c9c8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-ops p{
+  display: inline;
+  margin-left: 20px;
+}
+
+.panel-ops{
+  width: 70%;
+  font-size: 1rem;
+}
+
+.panel-deals{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+/** hero section**/
+
+.hero-section {
+  background-image: url("hmgoepprod.jpg");
+  height: 600px;
+  background-size: cover;
+  display: flex;
+justify-content: center;
+ align-items: flex-end;
+
+}
+
+.hero-msg{
+  background-color: #DBDAD6;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  width: 100%;
+}
+
+/** shop section**/
+.content {
+display: flex;
+justify-content: space-evenly;
+background-color: #C0BCB1;
+flex-wrap: wrap;
+}
+
+
+/** footer **/
+footer{
+  margin-top: 15px;
+}
+
+.foot-panel1 {
+  background-color: #a19e95;
+  color: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.footpanel2 {
+  background-color: #e4e4e4;
+  color: black;
+  height: 450px;
+display: flex;
+justify-content: space-evenly;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
+.footpanel3 {
+background-color: #e4e4e4;
+color: black;
+border-top: 0.5px solid black;
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.logo {
+  background-image: url("logo (2).jpg");
+  background-size: cover;
+  height: 60px;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footpanel4 {
+  background-color: #e4e4e4;
+  color: black;
+  height: 100px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.pages {
+padding-top: 25px;
+}
+
+
+.copyright {
+  padding-top: 5px;
+}
+
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+  gap: 0px; /* Adjust spacing between boxes */
+}
+
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: inherit; /* Keeps the text color unchanged */
+}
+
+.box h2 {
+  margin: 0; /* Ensures no extra spacing */
+}
+
+
+.box {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  overflow: hidden; /* Ensures image does not overflow */
+  transition: background-size 0.5s ease-in-out; /* Slower transition for a smoother effect */
+}
+
+.box:hover {
+  background-size: 130%; /* Increase this value for a stronger zoom effect */
+}
+
+
+.shirt-info {
+  position: absolute; /* Position it absolutely */
+  bottom: 0; /* Align it to the bottom */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white; /* Text color */
+  padding: 10px; /* Padding around the text */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+.box h3, .box p {
+  margin: 5px 0; /* Add some margin for spacing */
+}
+
+.box h2 {
+  font-size: 2rem; /* Adjust size as needed */
+  color: white; /* Keeps text visible on images */
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 3px solid black; /* Adds a bold black border */
+  padding: 5px 15px; /* Adds some spacing around text */
+  display: inline-block; /* Ensures border wraps only the text */
+}
+
+
+.navbar div, 
+.navbar p, 
+.navbar i, 
+.navbar select, 
+.navbar span,
+.panel div, 
+.panel p, 
+.panel i {
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar div:hover, 
+.navbar p:hover, 
+.navbar i:hover, 
+.navbar select:hover, 
+.navbar span:hover,
+.panel div:hover, 
+.panel p:hover, 
+.panel i:hover {
+  color: #ff6f61; /* Visible color change */
+  transform: scale(1.1); /* Slight zoom-out effect */
+}
+
+
+
+
+.footpanel2 ul a {
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: black; /* Default color */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footpanel2 ul a:hover {
+  color: #ff6f61; /* More visible color change */
+  transform: scale(1.1); /* Slight zoom-out effect */
+}
+
+
+/* Cart Styles */
+.cart {
+  position: fixed;
+  right: -339.8px; /* Start off-screen */
+  top: 0;
+  width: 300px;
+  height: 100%;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+  transition: right 0.3s ease; /* Smooth transition */
+  z-index: 1000; /* Ensure it appears above other content */
+  padding: 20px;
+  overflow-y: auto; /* Allow scrolling if content overflows */
+  background-color: #DBDAD6; /* White background for the cart */
+}
+
+/* Cart Header Styles */
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #000000; /* Blue bottom border */
+  padding-bottom: 10px;
+}
+
+.cart-header h2 {
+  font-size: 1.5rem; /* Larger font size for the title */
+  color: #333; /* Darker text color */
+}
+
+/* Close Button Styles */
+.close-cart {
+  font-size: 1.5rem; /* Larger close button */
+  color: #000000; /* Red color for the close button */
+  cursor: pointer;
+}
+
+/* Cart Items Container */
+.cart-items {
+  margin: 20px 0;
+  max-height: 60%; /* Limit height for scrolling */
+  overflow-y: auto; /* Scroll if too many items */
+}
+
+/* Individual Cart Item Styles */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Space between items */
+  padding: 10px;
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for items */
+}
+
+.cart-item img {
+  width: 80px; /* Fixed size for images */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between image and text */
+}
+
+.cart-item p {
+  flex-grow: 1; /* Allow text to take available space */
+  margin: 0; /* Remove default margin */
+}
+
+/* Remove Button Styles */
+.remove-from-cart {
+  background-color: #dc3545; /* Bootstrap danger color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-from-cart:hover {
+  background-color: #c82333; /* Darker red on hover */
+}
+
+/* Cart Total Styles */
+.cart-total {
+  border-top: 2px solid #000000; /* Blue top border */
+  padding-top: 10px;
+  font-size: 1.2rem; /* Slightly larger font for total */
+  color: #333; /* Darker text color */
+}
+
+/* Checkout Button Styles */
+#checkoutButton {
+  background-color: #28a745; /* Green color for checkout */
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width */
+  transition: background-color 0.3s;
+}
+
+#checkoutButton:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+.add-to-cart {
+margin-top: 10px;
+padding: 5px 10px;
+background-color: #000000; /* Button color */
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.add-to-cart:hover {
+background-color: #505050; /* Darker on hover */
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+
